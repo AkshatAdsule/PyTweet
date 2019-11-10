@@ -23,3 +23,7 @@ def getMonth(x):
         return "November"
     if (x == 12):
         return "December"
+
+def intoStr(input):
+    strinput = str(input)
+    return strinput
