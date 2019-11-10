@@ -17,4 +17,3 @@ twitter = Twython(
 message = "Hello World!"
 twitter.update_status(status=message)
 print("Tweeted: " + message)
-
