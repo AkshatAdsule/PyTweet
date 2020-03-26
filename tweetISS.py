@@ -20,6 +20,8 @@ outputstr = str(output)
 outputstr = output.split(";")
 cityout = outputstr[3]
 
+
+
 parameters = {
     "lat": outputstr[0],
     "lon": outputstr[1] }
